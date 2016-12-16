@@ -1,0 +1,127 @@
+<html>
+<head>
+	<title>Android Logo</title>
+	<style>
+
+		.androidLogo{
+			width:100px;
+			height:500px;
+		}
+		.head,#l-ant,#r-ant,#body,#l-hand,#r-hand,#l-leg,#r-leg{
+			background-color:#66ff33;
+		}
+		#l-eye,#r-eye{
+			background-color:white;
+			position: relative;
+			border-radius: 5px;
+			width: 10px;
+			height: 10px;
+		}
+		.head{
+			border-top-left-radius: 50px;
+			height: 50px;
+			border-top-right-radius: 50px;
+			position:relative;
+			left:50px;
+		}
+		#l-ant,#r-ant{
+			width: 4px;
+			height: 22px;
+		}
+		#l-ant{
+			
+			transform: rotate(310deg);
+		}
+		#r-ant{
+			transform: rotate(40deg);
+			float: right;
+			position: relative;
+			top: -22px;
+		}
+		#l-eye{
+			left: 20px;
+		}
+		#r-eye{
+			left: 70px;
+			top: -9.99px;
+		}
+		#body{
+			width:100px;
+			height:100px;
+			margin-top:2px;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			position:relative;
+			left:50px;
+		}
+		#l-hand,#r-hand{
+			width: 20px;
+			height: 70px;
+		}
+		#l-hand{
+			float: left;
+			position: relative;
+			left: 25px;
+			border-radius: 10px;
+		}
+		#r-hand{
+			float: right;
+			position: relative;
+			border-radius: 10px;
+			left: 75px;
+		}
+		#l-leg{
+			width: 15px;
+			height: 30px;
+			float: none;
+			position: relative;
+			left: 65px;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			display: inline-block;
+		}
+		#r-leg{
+			width: 15px;
+			height: 30px;
+			border-bottom-left-radius: 10px;
+			border-bottom-right-radius: 10px;
+			position: relative;
+			display: inline-block;
+			left: 100px;
+		}
+		.head:hover{
+			transform: rotate(-10deg)translate(-3px,-10px);
+		}
+		#l-hand:hover{
+			transform: rotate(30deg) translate(-10px, 5px);
+		}
+		#r-hand:hover{
+			transform: rotate(-30deg) translate(13px,4px);
+		}
+	</style>
+</head>
+<body>
+	<div class='androidLogo'>
+		<div class='head'>
+			<div id='l-ant'>
+			</div>
+			<div id='r-ant'>
+			</div>
+			<div id='l-eye'>
+			</div>
+			<div id='r-eye'>
+			</div>
+		</div>
+		<div id='l-hand'>
+		</div>
+		<div id='r-hand'>
+		</div>
+		<div id='body'>
+		</div>
+		<div id='l-leg'>
+		</div>
+		<div id='r-leg'>
+		</div>
+	</div>
+</body
+</html>
