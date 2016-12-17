@@ -1,0 +1,9 @@
+body h1{
+	color:red;
+}
+#board td{
+	background-color: black;
+	padding:15px;
+	cursor:pointer;
+	color:white;
+}
